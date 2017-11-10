@@ -12,6 +12,7 @@ function printBadges(string) {
 function flip() {
   return Math.random() >= 0.5;
 }
+
 function tailsNeverFails() {
   var x = 0;
   while (flip() ) {
