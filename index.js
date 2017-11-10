@@ -14,9 +14,11 @@ function flip() {
 }
 
 function tailsNeverFails() {
+  var Heads = "heads";
+  var Tails = "tails";
   var x = 0;
   while (flip() ) {
     ++x;
   }
-  return console.log('You got ' + x + ' tails in a row!');
+  return console.log('You got ' + x + ' '+ Tails' in a row!');
 }
