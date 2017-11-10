@@ -9,11 +9,11 @@ function printBadges(string) {
   return string;
 }
 
+function flip() {
+  return Math.random() >= 0.5;
+}
 
 function tailsNeverFails() {
-  function flip() {
-    return Math.random() >= 0.5;
-  }
   var x = 0;
   while (flip() ) {
     ++x;
