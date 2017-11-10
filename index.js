@@ -9,13 +9,11 @@ function printBadges(string) {
   return string;
 }
 
-function flip() {
-}
 
 function tailsNeverFails() {
   var y = Math.random() >= 0.5;
   var x = 0;
-  while (flip() ) {
+  while (y ) {
     ++x;
   }
   return console.log('You got ' + x + ' tails in a row!');
