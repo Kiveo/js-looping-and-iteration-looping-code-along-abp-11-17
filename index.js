@@ -8,17 +8,3 @@ function printBadges(string) {
   }
   return string;
 }
-
-function flip() {
-  return Math.random() >= 0.5;
-}
-
-function tailsNeverFails() {
-  var Heads = "heads";
-  var Tails = "tails";
-  var x = 0;
-  while (flip() ) {
-    ++x;
-  }
-  return console.log('You got ' + x + ' ' + Tails ' in a row!');
-}
