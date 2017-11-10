@@ -14,6 +14,7 @@ function flip() {
 }
 
 function tailsNeverFails() {
+  flip();
   var x = 0;
   while (flip() ) {
     ++x;
