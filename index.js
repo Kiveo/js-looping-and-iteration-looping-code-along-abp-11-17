@@ -10,7 +10,6 @@ function printBadges(string) {
 }
 
 function flip() {
-  return
 }
 
 function tailsNeverFails() {
