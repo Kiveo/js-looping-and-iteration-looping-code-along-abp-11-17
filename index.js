@@ -20,5 +20,5 @@ function tailsNeverFails() {
   while (flip() ) {
     ++x;
   }
-  return console.log('You got ' + x + ' '+ Tails' in a row!');
+  return console.log('You got ' + x + ' ' + Tails ' in a row!');
 }
